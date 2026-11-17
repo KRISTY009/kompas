@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/code.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="inner-header">
+            <a href="index.html">
+                <div class="logo-name">
+                    <div class="img logo"></div>
+                    <div class="name">
+                        <h2>Компас</h2>
+                        <p>Поиск потерянных вещей г. Рязань</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="burnav" id="burnav">
+                <div class="hamburger-close" id="hamburger-close">
+                    <h2>Х</h2>
+                </div>
+                <ul class="nav-burnav">
+                    <a class="burnav-link" href="search.html">
+                        <li class="burnav-opt">
+                            Поиск
+                        </li>
+                    </a>
+                    <a class="burnav-link" href="add.html">
+                        <li class="burnav-opt">
+                            Добавить объявление
+                        </li>
+                    </a>
+                    <a class="burnav-link" href="index.html#sec-comments">
+                        <li class="burnav-opt">
+                            Отзывы
+                        </li>
+                    </a>
+                    <a class="burnav-link" href="register.html">
+                        <li class="burnav-opt">
+                            Регистрация
+                        </li>
+                    </a>
+                    <a class="burnav-link" href="profile.html">
+                        <li class="burnav-opt">
+                            Личный кабинет
+                        </li>
+                    </a>
+                    <a class="burnav-link" href="admin.html">
+                        <li class="burnav-opt">
+                            Админ
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- <nav> -->
+            <ul class="nav-header">
+                <a class="nav-link" href="search.html">
+                    <li class="nav-opt">
+                        Поиск
+                    </li>
+                </a>
+                <a class="nav-link" href="add.html">
+                    <li class="nav-opt">
+                        Добавить объявление
+                    </li>
+                </a>
+                <a class="nav-link" href="index.html#sec-comments">
+                    <li class="nav-opt">
+                        Отзывы
+                    </li>
+                </a>
+                <a class="nav-link" href="register.html">
+                    <li class="nav-opt">
+                        Регистрация
+                    </li>
+                </a>
+                <a class="nav-link" href="profile.html">
+                    <li class="nav-opt">
+                        Личный кабинет
+                    </li>
+                </a>
+                <a class="nav-link" href="admin.html">
+                    <li class="nav-opt">
+                        Админ
+                    </li>
+                </a>
+            </ul>
+            <!-- </nav> -->
+
+            <div id="hamburger-button" class="hamburger-button">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+        <div class="inner-main">
+            <div class="section sec-about">
+                <div class="sec-about-info ">
+                    <h1>Компас</h1>
+                    <h2>Сайт по поиску потерянных вещей</h2>
+                </div>
+                <div class="sec-about-buts">
+                    <button class="but-main" onclick="document.location='add.html'">Я нашел вещь</button>
+                    <button class="but-main" onclick="document.location='search.html'">Я потерял вещь</button>
+                </div>
+            </div>
+
+            <div class="section sec-search">
+                <div class="search">
+                    <div class="img search-icon" onclick="document.location='search.html'"></div>
+                    <input type="text" maxlength="200" placeholder="Поиск объявления.." class="search-field active">
+                    <button class="search-but" onclick="document.location='search.html'">Найти</button>
+                </div>
+            </div>
+
+            <div class="section sec-facts">
+                <div class="img sec-facts-img">
+                    <h1>Почему мы?</h1>
+                </div>
+
+                <div class="sec-facts-list">
+                    <div class="fact fact-1">
+                        <h1>1</h1>
+                        <p>Помогли вернуть более 150 вещей</p>
+                    </div>
+                    <div class="fact fact-2">
+                        <h1>2</h1>
+                        <p>Более трех лет способствуем возращению имущества владельцам</p>
+                    </div>
+                    <div class="fact fact-3">
+                        <h1>3</h1>
+                        <p>Все услуги оказываются бесплатно</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section sec-recent">
+                <h3>Недавно добавлено</h3>
+
+                <div class="recent-slides">
+                    <div class="sec-recent-slide sec-recent-slide-1">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                    <div class="sec-recent-slide sec-recent-slide-2" style="display: none;">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Железнодорожный район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                    <div class="sec-recent-slide sec-recent-slide-3" style="display: none;">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Советский район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                    <div class="sec-recent-slide sec-recent-slide-4" style="display: none;">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Московский район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                    <div class="sec-recent-slide sec-recent-slide-5" style="display: none;">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                    <div class="sec-recent-slide sec-recent-slide-6" style="display: none;">
+                        <div class="card-info">
+                            <div class="category-date">
+                                <p class="category">Категория</p>
+                                <p class="font-plus date">28.02.2026</p>
+                            </div>
+                            <div class="slide-content">
+                                <div class="card-text">
+                                    <p class="place">Московский район</p>
+                                    <h3 class="object-name">Енот милый сонный через чур часто грустный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации или, скажем, сирени, цветет белыми цветами, пахнет креозотом,
+                                    </p>
+                                    <div class="more-info slide-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="img slide-img"></div>
+                    </div>
+
+                </div>
+
+                <div class="more sec-recent-more">
+                    <div class="more-opt sec-recent-more-opt active"></div>
+                    <div class="more-opt sec-recent-more-opt"></div>
+                    <div class="more-opt sec-recent-more-opt"></div>
+                    <div class="more-opt sec-recent-more-opt"></div>
+                    <div class="more-opt sec-recent-more-opt"></div>
+                    <div class="more-opt sec-recent-more-opt"></div>
+                </div>
+            </div>
+
+            <div class="section sec-all">
+                <a href="search.html"><h3>Все объявления</h3></a>
+
+                <div class="all-list">
+                    <div class="card">
+                        <div class="category-date">
+                            <p class="category">Категория</p>
+                            <p class="font-plus date">28.02.2026</p>
+                        </div>
+                        <p class="if-registered font-plus">Зарегистрированный пользователь</p>
+                        <div class="card-content-img">
+                            <div class="img card-img"></div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации
+                                    </p>
+                                    <div class="more-info card-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="category-date">
+                            <p class="category">Категория</p>
+                            <p class="font-plus date">28.02.2026</p>
+                        </div>
+                        <p class="if-registered font-plus">Зарегистрированный пользователь</p>
+                        <div class="card-content-img">
+                            <div class="img card-img"></div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации
+                                    </p>
+                                    <div class="more-info card-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="category-date">
+                            <p class="category">Категория</p>
+                            <p class="font-plus date">28.02.2026</p>
+                        </div>
+                        <p class="if-registered font-plus">Зарегистрированный пользователь</p>
+                        <div class="card-content-img">
+                            <div class="img card-img"></div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации
+                                    </p>
+                                    <div class="more-info card-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="category-date">
+                            <p class="category">Категория</p>
+                            <p class="font-plus date">28.02.2026</p>
+                        </div>
+                        <p class="if-registered font-plus">Зарегистрированный пользователь</p>
+                        <div class="card-content-img">
+                            <div class="img card-img"></div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <p class="place">Октябрьский район</p>
+                                    <h3 class="object-name">Енот милый сонный</h3>
+                                    <p class="card-text">
+                                        Это пятая зона, стоимость билета тридцать пять копеек, поезд идет час двадцать, северная ветка, ветка акации
+                                    </p>
+                                    <div class="more-info card-tel">
+                                        <p class="tel-w">Телефон:</p>
+                                        <p class="tel">8 (800) 123-45-67</p>
+                                    </div>
+                                </div>
+                                <button class="but-more but-more-item">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section sec-comments" id="sec-comments">
+                <h3>Отзывы наших пользователей</h3>
+                <div class="comments">
+                    <!-- <div class="slide-comments slide-comments-1" style="display: flex;"> -->
+                    <div class="comment comment-1 com-1 active">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                пупупупуппуу
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment comment-2 com-2">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                пампампам
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment comment-3 com-3">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                тунтунтун
+                            </p>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+                    <!-- <div class="slide-comments slide-comments-2" style="display: none;"> -->
+                    <div class="comment comment-1 com-4" style="display: none;">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                по хлебному хлебный хлеб
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment comment-2 com-5" style="display: none;">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                пупупупуппуу
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment comment-3 com-6" style="display: none;">
+                        <div class="img comment-img"></div>
+                        <div class="comment-info">
+                            <p class="font-plus comment-date">28.02.2026</p>
+                            <h3 class="user-name">Валентин Валентинович</h3>
+                            <p class="comment-text">
+                                (^ΦωΦ^)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <div class="more sec-comments-more">
+                    <div class="more-opt sec-comment-more-opt active"></div>
+                    <div class="more-opt sec-comment-more-opt"></div>
+                    <div class="more-opt sec-comment-more-opt"></div>
+                    <div class="more-opt sec-comment-more-opt"></div>
+                    <div class="more-opt sec-comment-more-opt"></div>
+                    <div class="more-opt sec-comment-more-opt"></div>
+                </div>
+            </div>
+
+            <div class="section sec-subcription">
+                <div class="form">
+                    <h3>Подпишитесь на нас, чтобы оставаться в курсе новостей</h3>
+                    <form class="form-subcription">
+                        <label for="sub-email" class="field">
+                        <p>Введите email: *</p>
+                        <input type="email" required placeholder="Начните вводить.." id="sub-email" name="sub-email" >
+                        <p class="font-message message-needed">Это обязательное поле</p>
+                        <p class="font-message message-uncorr">Корректно заполните поле</p>
+                    </label>
+
+                        <label for="sub-agreement" class="check">
+                        <div class="input-check">
+                            <input type="checkbox" required name="sub-agreement" id="sub-agreement">
+                            <p>Я согласен на обработку данных *</p>
+                        </div>
+                        <p class="font-message message-needed">Это обязательное поле</p>
+                    </label>
+
+                        <button type="submit" class="but-more" name="sub">Подписаться</button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner-footer">
+            <a href="index.html">
+                <div class="logo-name">
+                    <div class="img logo"></div>
+                    <div class="name">
+                        <h2>Компас</h2>
+                        <p>Поиск потерянных вещей г. Рязань</p>
+                    </div>
+                </div>
+            </a>
+
+            <div class="email-tel">
+                <p> mail@kompas.ru</p>
+                <p>8 (800) 123-45-67</p>
+            </div>
+
+            <nav>
+                <ul class="nav-footer">
+                    <a class="nav-link" href="index.html">
+                        <li class="nav-opt">
+                            Главная
+                        </li>
+                    </a>
+                    <a class="nav-link" href="register.html">
+                        <li class="nav-opt">
+                            Регистрация
+                        </li>
+                    </a>
+                    <a class="nav-link" href="login.html">
+                        <li class="nav-opt">
+                            Авторизация
+                        </li>
+                    </a>
+                    <a class="nav-link" href="profile.html">
+                        <li class="nav-opt">
+                            Личный кабинет
+                        </li>
+                    </a>
+                    <a class="nav-link" href="add.html">
+                        <li class="nav-opt">
+                            Найдена вещь
+                        </li>
+                    </a>
+                    <a class="nav-link" href="search.html">
+                        <li class="nav-opt">
+                            Поиск
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

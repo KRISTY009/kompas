@@ -1,0 +1,55 @@
+@import url(main.css);
+
+.section-form {
+    min-height: 90vh;
+    align-items: center;
+        background: linear-gradient(to top,rgb(84, 84, 84), 20%,rgba(84, 84, 84, 0.3), 100%, rgba(84, 84, 84, 0)),
+    url('../img/sec-login.jpeg');
+    background-size: cover;
+    padding: 40px;
+}
+
+.form {
+    width: 100%;
+    max-width: 1220px;
+    align-self: center;
+
+}
+
+form {
+    max-width: 910px;
+}
+
+.new-password {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sec-login .reg-log {
+    .log-h {
+        text-decoration: underline;
+    }
+    .reg-h {
+        text-decoration: none;
+    }
+}
+
+.sec-register .reg-log {
+    .log-h {
+        text-decoration: none;
+    }
+    .reg-h {
+        text-decoration: underline;
+    }
+}
+
+.add-reg-passwords {
+    gap: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .section-form {
+        padding: 20px 30px;
+    }
+}
+
